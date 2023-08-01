@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Letter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        .content {
+            margin-top: 30px;
+        }
+
+        .signature {
+            text-align: right;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Job Application Letter</h1>
+    </div>
+
+    <div class="content">
+        <p>Date: <span id="date"></span></p>
+
+        <p>Dear Hiring Manager,</p>
+
+        <p>I am writing to apply for the position of [senior software engineer] at [Hilal]. I have a strong interest in this role and believe that my skills and experience make me a perfect fit for this position.</p>
+
+        <p>Throughout my career, I have gained valuable experience in [relevant skills] and have successfully [mention notable achievements]. I am confident that my expertise in [specific domain] will enable me to contribute effectively to the success of [Hilal].</p>
+
+        <p>I am excited about the opportunity to work with your esteemed organization and contribute to its growth. I am highly motivated, detail-oriented, and a quick learner, making me a valuable asset to any team.</p>
+
+        <p>Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further in an interview. Please find my attached resume for your review.</p>
+
+        <p>Sincerely,</p>
+        <p>Muhammad Bilal Ahmad</p>
+    </div>
+
+    <div class="signature">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-C4PJm46WHwhWVk6-FplVZJ-CEVxKznjjsfJpIKKx&s" alt="Your Signature">
+    </div>
+
+    <script>
+        // Get the current date and display it in the application letter
+        var today = new Date();
+        var dateElement = document.getElementById('date');
+        dateElement.innerHTML = today.toDateString();
+    </script>
+</body>
+</html>
